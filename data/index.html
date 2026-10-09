@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Ultracooldood Lanyard Upload</title>
+	<meta name="viewport" content = "width=device-width, initial-scale=1">
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="parent">
+  <div class="child">
+    <div>
+      <p>Please enter text to display:</p>
+    </div>
+    <form action="/get">
+      <div>
+        <textarea name="input1" placeholder="Enter text to display..." class="square">It doesn't work. Try fixing it.</textarea>
+      </div>
+        <input type="submit" value="Send" id="submit">
+    </form>
+    <div id="storedMessages">
+      <p>Previous messages:</p>
+    </div>
+    <form action="/get">
+      <div>
+        <textarea name="input1" readonly="readonly" id="prevText" class="square">This should be displaying the previous message. If it isn't, it needs to be fixed</textarea>
+      </div>
+        <input type="submit" value="Send" id="submit">
+    </form>
+  </div>
+  <div class="child">
+    <div>
+      <p>Please enter text for the other message:</p>
+    </div>
+    <form action="/get">
+      <div>
+        <textarea name="input2" placeholder="Enter text to display..." class="square">You haven't implemented the code for your other message to display correctly. Maybe fix it?</textarea>
+      </div>
+        <input type="submit" value="Send" id="submit">
+    </form>
+    <div id="storedMessages">
+      <p>Previous messages:</p>
+    </div>
+    <form action="/get">
+      <div>
+        <textarea name="input2" readonly="readonly" id="prevText" class="square">If the text box above works but this didn't, I'm slightly concerned.</textarea>
+      </div>
+        <input type="submit" value="Send" id="submit">
+    </form>
+  </div>
+  <div class="child">
+    <div>
+      <fieldset>
+        <legend>Buttons!</legend>
+        <form action="/get">
+          <textarea name="inputC" readonly="readonly" hidden="hidden"></textarea>
+          <input type="image" src="textBoxIcon.png" alt="Swap Message" id="submit" class="image">
+        </form>
+        <form action="/get">
+          <textarea name="inputS" readonly="readonly" hidden="hidden"></textarea>
+          <input type="image" src="moonStars.png" alt="Sleep" id="submit" class="image">
+        </form>
+      </fieldset>
+    </div>
+    <br>
+    <div>
+      <fieldset title="If discovered, the lanyard will auto-connect to this Wi-Fi network!">
+        <legend>Home Wifi (beta)</legend>
+        <form action="/get">
+          <input name="SSID" placeholder="SSID" value="stassid">
+          <br>
+          <input name="Password" type="password" value="stapwd" placeholder="Password">
+          <br>
+          <input type="submit" value="Submit" id="submit">
+        </form>
+      </fieldset>
+    </div>
+  </div>
+</div>
+</body>

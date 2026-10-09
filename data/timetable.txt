@@ -1,0 +1,7 @@
+To change text:
+1. Connect to WiFi
+SSID: Ultracooldood Lanyard Card
+Pasword: 12345678
+2. Visit lanyard.local using
+   browser of choice
+3. Enter text and hit send!
